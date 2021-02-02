@@ -13,6 +13,14 @@ python:
   - 3.9
   - nightly
 
+arch:
+  - amd64
+  - arm64-graviton2
+
+virt: lxd
+
+group: edge
+
 matrix:
   fast_finish: true
   allow_failures:
